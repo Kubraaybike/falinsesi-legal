@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Falın Sesi — Gizlilik Politikası ve Kullanım Şartları</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #0d0221;
+    --card: #1a0a2e;
+    --text: #f2ecff;
+    --muted: #c9b8e8;
+    --accent: #e879f9;
+    --border: rgba(255,255,255,0.14);
+  }
+  @media (prefers-color-scheme: light) {
+    :root {
+      --bg: #f7f3fb;
+      --card: #ffffff;
+      --text: #1a0a2e;
+      --muted: #5b4a78;
+      --accent: #a0289c;
+      --border: rgba(0,0,0,0.1);
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.65;
+  }
+  .wrap {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 32px 20px 80px;
+  }
+  header {
+    text-align: center;
+    margin-bottom: 32px;
+  }
+  header h1 {
+    font-size: 1.5rem;
+    margin: 0 0 6px;
+    color: var(--accent);
+  }
+  header p {
+    color: var(--muted);
+    margin: 0;
+    font-size: 0.9rem;
+  }
+  nav {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 32px;
+    flex-wrap: wrap;
+  }
+  nav a {
+    color: var(--accent);
+    text-decoration: none;
+    border: 1px solid var(--border);
+    padding: 8px 16px;
+    border-radius: 999px;
+    font-size: 0.9rem;
+  }
+  section {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 24px;
+    margin-bottom: 24px;
+  }
+  h2 {
+    font-size: 1.2rem;
+    margin-top: 0;
+    color: var(--accent);
+  }
+  h3 {
+    font-size: 1rem;
+    margin-bottom: 6px;
+  }
+  p, li {
+    color: var(--text);
+    font-size: 0.95rem;
+  }
+  ul { padding-left: 20px; }
+  .muted { color: var(--muted); font-size: 0.85rem; }
+  a { color: var(--accent); }
+  .updated {
+    text-align: center;
+    color: var(--muted);
+    font-size: 0.85rem;
+    margin-bottom: 32px;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Falın Sesi</h1>
+    <p>Gizlilik Politikası ve Kullanım Şartları</p>
+  </header>
+
+  <div class="updated">Son güncelleme: 23 Temmuz 2026</div>
+
+  <nav>
+    <a href="#gizlilik">Gizlilik Politikası</a>
+    <a href="#sartlar">Kullanım Şartları</a>
+  </nav>
+
+  <section id="gizlilik">
+    <h2>Gizlilik Politikası</h2>
+
+    <h3>1. Kimiz</h3>
+    <p>
+      Falın Sesi ("uygulama", "biz"), astroloji, tarot ve fal temalı içerik ile
+      canlı danışmanlık görüşmesi sunan bir mobil uygulamadır. Bu politika,
+      uygulamayı kullanırken hangi verilerin toplandığını, nasıl kullanıldığını
+      ve haklarınızın neler olduğunu açıklar.
+    </p>
+
+    <h3>2. Topladığımız Veriler</h3>
+    <ul>
+      <li><strong>Hesap bilgileri:</strong> e-posta adresi ve şifre (Firebase Authentication üzerinden saklanır, şifrenin kendisi bizim tarafımızdan görülmez).</li>
+      <li><strong>Profil bilgileri:</strong> ad, cinsiyet, ilişki durumu, doğum tarihi/saati, güneş burcu ve yükselen burç — kişiselleştirilmiş fal/astroloji içeriği üretmek için kullanılır.</li>
+      <li><strong>Satın alma bilgileri:</strong> jeton ve premium abonelik satın alımları Apple App Store / Google Play üzerinden yürütülür; kart bilgileriniz uygulama veya bizim sunucularımız tarafından görülmez ya da saklanmaz.</li>
+      <li><strong>Canlı görüşme verileri:</strong> canlı fal görüşmesi sırasında kamera ve mikrofonunuza erişilir. Görüşmeler kayıt altına alınmaz; ses/görüntü yalnızca görüşme süresince taraflar arasında (WebRTC ile) iletilir.</li>
+      <li><strong>Reklam ve ölçümleme verileri:</strong> Google AdMob aracılığıyla reklam gösterilir. iOS'ta, kişiselleştirilmiş reklam için izin istenir (App Tracking Transparency); izin vermezseniz uygulamayı kullanmaya devam edebilirsiniz.</li>
+      <li><strong>Teknik/kullanım verileri:</strong> cihaz tanımlayıcıları, push bildirim token'ı, uygulama içi etkileşim verileri (hizmetin çalışması ve bildirim gönderimi için).</li>
+    </ul>
+
+    <h3>3. Verileri Nasıl Kullanıyoruz</h3>
+    <ul>
+      <li>Hesabınızı oluşturmak ve oturum açmanızı sağlamak,</li>
+      <li>Size özel burç yorumu, tarot ve diğer fal içeriklerini üretmek,</li>
+      <li>Canlı danışmanlık görüşmelerini gerçekleştirmek,</li>
+      <li>Satın alımlarınızı (jeton, premium abonelik) işlemek,</li>
+      <li>Randevu/bildirim göndermek (push notification),</li>
+      <li>Reklam göstermek ve hizmeti ücretsiz kullanıcılar için sürdürülebilir kılmak,</li>
+      <li>Kötüye kullanımı önlemek (şikayet/engelleme mekanizması dahil).</li>
+    </ul>
+
+    <h3>4. Üçüncü Taraf Hizmetler</h3>
+    <p>Verileriniz aşağıdaki hizmet sağlayıcılar aracılığıyla işlenir:</p>
+    <ul>
+      <li><strong>Google Firebase</strong> (Authentication, Firestore veritabanı, Cloud Messaging) — hesap ve profil verilerinin saklanması,</li>
+      <li><strong>Google AdMob</strong> — reklam gösterimi,</li>
+      <li><strong>Apple App Store / Google Play</strong> — uygulama içi satın alma işlemleri.</li>
+    </ul>
+    <p>Verileriniz bunların dışında hiçbir üçüncü tarafla satılmaz veya paylaşılmaz.</p>
+
+    <h3>5. Veri Saklama ve Hesap Silme</h3>
+    <p>
+      Verileriniz hesabınız aktif olduğu sürece saklanır. Uygulama içinde
+      Hesap → "Hesabımı sil" adımıyla hesabınızı ve tüm kişisel verilerinizi
+      kalıcı olarak silebilirsiniz. Bu işlem geri alınamaz.
+    </p>
+
+    <h3>6. Haklarınız</h3>
+    <p>
+      Verilerinize erişim, düzeltme veya silinmesini talep etme hakkına
+      sahipsiniz. Talepleriniz için aşağıdaki iletişim adresinden bize
+      ulaşabilirsiniz.
+    </p>
+
+    <h3>7. Çocukların Gizliliği</h3>
+    <p>
+      Uygulama 17 yaş altı kullanıcılar için tasarlanmamıştır ve bilerek
+      çocuklardan veri toplamayız.
+    </p>
+
+    <h3>8. Değişiklikler</h3>
+    <p>
+      Bu politika zaman zaman güncellenebilir. Önemli değişiklikler
+      uygulama içinde duyurulur.
+    </p>
+
+    <h3>9. İletişim</h3>
+    <p>
+      Sorularınız için: <a href="mailto:davut190566@gmail.com">davut190566@gmail.com</a>
+    </p>
+  </section>
+
+  <section id="sartlar">
+    <h2>Kullanım Şartları</h2>
+
+    <h3>1. Hizmetin Tanımı</h3>
+    <p>
+      Falın Sesi; astroloji, tarot ve fal temalı içerikler ile canlı
+      danışmanlık görüşmesi sunan bir eğlence uygulamasıdır. Uygulamadaki
+      burç yorumu, tarot, su falı, para yorumu ve ilişki analizi gibi
+      içerikler <strong>eğlence amaçlıdır</strong>; tıbbi, hukuki, finansal
+      veya psikolojik tavsiye yerine geçmez. Önemli kararlarınızı bu
+      içeriklere dayanarak vermemenizi öneririz.
+    </p>
+
+    <h3>2. Hesap Sorumluluğu</h3>
+    <p>
+      Hesap bilgilerinizin (e-posta, şifre) güvenliğinden siz
+      sorumlusunuz. Hesabınız üzerinden yapılan işlemlerden sorumluluk
+      size aittir.
+    </p>
+
+    <h3>3. Satın Almalar</h3>
+    <p>
+      Jeton paketleri ve premium abonelik, Apple App Store / Google Play
+      üzerinden satın alınır. Ödeme, iade ve abonelik iptali işlemleri
+      ilgili mağazanın kendi politikalarına tabidir.
+    </p>
+
+    <h3>4. Canlı Görüşme Kuralları</h3>
+    <p>
+      Canlı görüşmelerde diğer kullanıcılara/danışmanlara karşı saygılı
+      davranmanız beklenir. Taciz, hakaret veya uygunsuz davranış tespit
+      edilirse hesabınız askıya alınabilir. Uygulama içinden şikayet
+      bildirebilir ve kullanıcıları engelleyebilirsiniz.
+    </p>
+
+    <h3>5. Yasak Kullanım</h3>
+    <ul>
+      <li>Başka kullanıcıları taciz etme veya tehdit etme,</li>
+      <li>Uygulamayı yasa dışı amaçlarla kullanma,</li>
+      <li>Hizmetin işleyişine müdahale etme (tersine mühendislik, otomasyon vb.).</li>
+    </ul>
+
+    <h3>6. Fesih</h3>
+    <p>
+      Bu şartları ihlal eden hesapları askıya alma veya kapatma hakkımızı
+      saklı tutarız. Siz de dilediğiniz zaman hesabınızı uygulama içinden
+      kalıcı olarak silebilirsiniz.
+    </p>
+
+    <h3>7. Sorumluluk Sınırlaması</h3>
+    <p>
+      Uygulama içeriği "olduğu gibi" sunulur. İçeriklerin doğruluğu veya
+      belirli bir amaca uygunluğu garanti edilmez.
+    </p>
+
+    <h3>8. Uygulanacak Hukuk</h3>
+    <p>Bu şartlar Türkiye Cumhuriyeti yasalarına tabidir.</p>
+
+    <h3>9. İletişim</h3>
+    <p>
+      Sorularınız için: <a href="mailto:davut190566@gmail.com">davut190566@gmail.com</a>
+    </p>
+  </section>
+</div>
+</body>
+</html>
